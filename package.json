@@ -1,0 +1,22 @@
+{
+  "name": "reflest",
+  "version": "0.1.0",
+  "description": "Library to wrap requests calls in your application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && ava --tap | tap-nyan",
+    "ava": "ava -v"
+  },
+  "keywords": [],
+  "author": "UCF Project <ucf-project@alterway.fr>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "string": "^3.3.1"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "tap-nyan": "0.0.2",
+    "xo": "^0.17.0"
+  }
+}
